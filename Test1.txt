@@ -12,3 +12,22 @@ https://github.com/wrgorman/Springboard.git
 
 
 git remote add origin <repo url>
+
+
+git clone <url>  -- remote to local
+
+git status
+
+git add <file>
+
+git commit - m "msg"
+
+git push
+
+git pull
+
+git add .
+git add -A
+
+git ----------- command list
+
