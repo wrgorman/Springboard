@@ -5,3 +5,10 @@ git add <file>   		-- add file to the current commit
 git commit -m 'msg' 		-- add commit locally
 git push origin master   	-- commit to your github repository
 
+git remote show origin
+
+https://github.com/wrgorman/Springboard.git
+
+
+
+git remote add origin <repo url>
