@@ -1,4 +1,4 @@
-Test#1
+Test#1 - 20190218
 
 git status
 git add <file>   		-- add file to the current commit
