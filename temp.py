@@ -1,3 +1,131 @@
+# -*- coding: utf-8 -*-
+"""
+Spyder Editor
+
+This is a temporary script file.
+"""
+
+print("hey")
+
+
+
+
+#lists are mutable
+x = [1,2,3]
+print(id(x))
+x.append(4)
+print(id(x))
+
+course = "Python Programming"
+print(len(course))
+
+print(course[0])
+print(course[-1])
+print(course[0:3])
+print(course[:3])
+print(course[0:])
+print(course[:])
+
+message = 'Python "Programming'
+print(message)
+
+message = "Python \"Programming"
+print(message)
+
+# \" \' \\ \n
+
+message = """
+Python
+Programming
+"""
+
+print(message)
+
+first = "Russ"
+last = "Gorman"
+full = first + last
+
+full = f"{first} {last}"
+full = f"{len(first)} {2 + 2}"
+
+
+course.upper()
+course.lower()
+course.title()
+course.strip()
+course.find("pro")
+course.replace("P", "r")
+print("Programming" in course)
+print("Programming" not in course)
+
+x = 0b10
+print(x)
+print(bin(x))
+
+x = 0x12c
+print(hex(x))
+
+#a + bi complex nums
+x = 1 + 2j
+print(x)
+
+x = 10 // 3
+x = 10 % 3
+x = 10 ** 3
+
+PI = 3.14
+print(round(PI))
+print(abs(PI))
+
+
+#search google for python 3 built-in functions
+
+
+import math
+
+print(math.floor(PI))
+
+#search python 3 math module
+
+#x = input("x: ")
+int(x)
+float(x)
+bool(x)
+str(x)
+
+#False -- ""  0  []   None (null)
+
+
+age = 22
+if age >= 18:
+    print("Adult")
+elif age >= 13:
+    print("teen")
+else:
+    print("child")
+    
+print("all done")
+
+
+#and
+#or
+#not
+
+name = "Joe"
+if not name.strip():
+    print("name is empty")
+    
+    
+if age >= 18 and age < 65:
+    print("eligible")
+    
+if 18 <= age < 65:
+    print("eligible")
+
+
+
+
+#########################
 
 
 age = 22
@@ -135,6 +263,13 @@ print(message)
 input = 15
 if input % 3 == 0:
     print("div by 3")
+
+
+
+
+
+
+
 
 
 
