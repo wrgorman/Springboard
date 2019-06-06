@@ -1,7 +1,7 @@
 Test#1 - 20190218
 
 git status
-git add <file>   		-- add file to the current commit
+git add "<file>"   		-- add file to the current commit
 git commit -m 'msg' 		-- add commit locally
 git push origin master   	-- commit to your github repository
 
@@ -18,7 +18,7 @@ git clone <url>  -- remote to local
 
 git status
 
-git add <file>
+git add "<file>"
 
 git commit - m "msg"
 
